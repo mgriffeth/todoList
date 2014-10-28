@@ -16,6 +16,9 @@ body{
     text-align:center;
     background-color:HSLA(203, 10%, 54%, 1);
     margin-bottom:1px;
+    font-size:24px;
+    //border-radius:10px;
+
   }
   ul{
     padding:0;
@@ -25,8 +28,13 @@ body{
       background-color:HSLA(203, 10%, 54%, 1);
       margin-top:1px;
       margin-bottom:1px;
-      border-radius:10px;
-      padding-left:1px;
+      //border-radius:10px;
+      padding-left:15px;
+      opacity:.8;
+      &:hover{
+        opacity:1;
+      }
+
 
     }
   }
