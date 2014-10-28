@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'underscore.js',
+1 verbose cli   '--save' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json todoList@1.0.0 No description
+6 warn package.json todoList@1.0.0 No repository field.
+7 warn package.json todoList@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'underscore.js', null ]
+10 verbose cache add spec="underscore.js" args=["underscore.js",null]
+11 verbose parsed spec { raw: 'underscore.js',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'underscore.js',
+11 verbose parsed spec   rawSpec: '',
+11 verbose parsed spec   spec: '*',
+11 verbose parsed spec   type: 'range' }
+12 verbose parsed spec { raw: 'underscore.js',
+12 verbose parsed spec   scope: null,
+12 verbose parsed spec   name: 'underscore.js',
+12 verbose parsed spec   rawSpec: '',
+12 verbose parsed spec   spec: '*',
+12 verbose parsed spec   type: 'range' }
+13 verbose addNamed [ 'underscore.js', '*' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 22c93645-underscore-js underscore.js@*
+16 verbose lock underscore.js@* /Users/matthewgriffeth/.npm/22c93645-underscore-js.lock
+17 silly addNameRange { name: 'underscore.js', range: '*', hasData: false }
+18 verbose mapToRegistry name underscore.js
+19 verbose mapToRegistry uri https://registry.npmjs.org/underscore.js
+20 verbose request on initialization, where is /underscore.js
+21 verbose request after pass 1, where is /underscore.js
+22 verbose request url raw /underscore.js
+23 verbose request resolving registry [ 'https://registry.npmjs.org/', './underscore.js' ]
+24 verbose request after pass 2, where is https://registry.npmjs.org/underscore.js
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 12:34:16
+27 verbose request id 09803695fda149ff
+28 http request GET https://registry.npmjs.org/underscore.js
+29 http 404 https://registry.npmjs.org/underscore.js
+30 verbose headers { date: 'Tue, 28 Oct 2014 16:34:17 GMT',
+30 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'cache-control': 'max-age=0',
+30 verbose headers   'content-length': '52',
+30 verbose headers   'accept-ranges': 'bytes',
+30 verbose headers   via: '1.1 varnish',
+30 verbose headers   age: '0',
+30 verbose headers   'x-served-by': 'cache-jfk1023-JFK',
+30 verbose headers   'x-cache': 'MISS',
+30 verbose headers   'x-cache-hits': '0',
+30 verbose headers   'x-timer': 'S1414514057.201267,VS0,VE84',
+30 verbose headers   'keep-alive': 'timeout=10, max=50',
+30 verbose headers   connection: 'Keep-Alive' }
+31 silly registry.get cb [ 404,
+31 silly registry.get   { date: 'Tue, 28 Oct 2014 16:34:17 GMT',
+31 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '52',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1414514057.201267,VS0,VE84',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 silly lockFile 22c93645-underscore-js underscore.js@*
+33 silly lockFile 22c93645-underscore-js underscore.js@*
+34 verbose stack Error: 404 Not Found: underscore.js
+34 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+34 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+34 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+34 verbose stack     at Request.emit (events.js:98:17)
+34 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+34 verbose stack     at Request.emit (events.js:117:20)
+34 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+34 verbose stack     at IncomingMessage.emit (events.js:117:20)
+34 verbose stack     at _stream_readable.js:943:16
+34 verbose stack     at process._tickCallback (node.js:419:13)
+35 verbose statusCode 404
+36 verbose pkgid underscore.js
+37 verbose cwd /Users/matthewgriffeth/projects/tiy/todoList
+38 error Darwin 13.4.0
+39 error argv "node" "/usr/local/bin/npm" "install" "underscore.js" "--save"
+40 error node v0.10.32
+41 error npm  v2.0.2
+42 error code E404
+43 error 404 Not Found: underscore.js
+43 error 404
+43 error 404 'underscore.js' is not in the npm registry.
+43 error 404 You should bug the author to publish it (or use the name yourself!)
+43 error 404 It was specified as a dependency of 'todoList'
+43 error 404
+43 error 404 Note that you can also install from a
+43 error 404 tarball, folder, http url, or git url.
+44 verbose exit [ 1, true ]

@@ -1,0 +1,15 @@
+{
+  "name": "todoList",
+  "version": "0.0.0",
+  "authors": [
+    "Matt Griffeth <mgriffeth9@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0",
+    "handlebars": "~2.0.0"
+  }
+}
