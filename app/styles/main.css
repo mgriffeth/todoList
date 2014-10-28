@@ -1,0 +1,24 @@
+body {
+  background-color: HSLA(204, 10%, 28%, 1);
+  .container-margin: 0 auto; }
+
+.list_container {
+  display: block;
+  width: 25%; }
+  .list_container .list_name {
+    display: block;
+    text-align: center;
+    background-color: HSLA(203, 10%, 54%, 1);
+    margin-bottom: 1px; }
+  .list_container ul {
+    padding: 0;
+    margin-top: 0; }
+    .list_container ul li {
+      list-style: none;
+      background-color: HSLA(203, 10%, 54%, 1);
+      margin-top: 1px;
+      margin-bottom: 1px;
+      border-radius: 10px;
+      padding-left: 1px; }
+
+/*# sourceMappingURL=main.css.map */
